@@ -11802,10 +11802,20 @@ body {
   margin-bottom: 25px;
 }
 
-.fas:nth-child(1n + 0) {
-  color: #f75c2b;
+.donationLink {
+  color: #bf0017 !important;
+  animation: moove 1s ease-in-out infinite alternate;
 }
 
 .iconeColor {
   color: #f75c2b !important;
+}
+
+@keyframes moove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(5px);
+  }
 }
